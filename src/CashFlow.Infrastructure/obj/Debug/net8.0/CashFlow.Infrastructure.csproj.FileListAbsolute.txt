@@ -1,0 +1,15 @@
+C:\Dev\CashFlow\CashFlow.Infrastructure\bin\Debug\net8.0\CashFlow.Infrastructure.deps.json
+C:\Dev\CashFlow\CashFlow.Infrastructure\bin\Debug\net8.0\CashFlow.Infrastructure.dll
+C:\Dev\CashFlow\CashFlow.Infrastructure\bin\Debug\net8.0\CashFlow.Infrastructure.pdb
+C:\Dev\CashFlow\CashFlow.Infrastructure\bin\Debug\net8.0\CashFlow.Domain.dll
+C:\Dev\CashFlow\CashFlow.Infrastructure\bin\Debug\net8.0\CashFlow.Domain.pdb
+C:\Dev\CashFlow\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.csproj.AssemblyReference.cache
+C:\Dev\CashFlow\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CashFlow\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.AssemblyInfoInputs.cache
+C:\Dev\CashFlow\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.AssemblyInfo.cs
+C:\Dev\CashFlow\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Dev\CashFlow\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.84FCB40E.Up2Date
+C:\Dev\CashFlow\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.dll
+C:\Dev\CashFlow\CashFlow.Infrastructure\obj\Debug\net8.0\refint\CashFlow.Infrastructure.dll
+C:\Dev\CashFlow\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.pdb
+C:\Dev\CashFlow\CashFlow.Infrastructure\obj\Debug\net8.0\ref\CashFlow.Infrastructure.dll

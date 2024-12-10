@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\CashFlow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF2119-2724-464D-B4DF-EA71A578FB17}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\dev\\cashflow\\src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BDF2119-2724-464D-B4DF-EA71A578FB17}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61938FF-4403-496B-AD9B-28EE4281F378}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|c:\\dev\\cashflow\\src\\cashflow.communication\\enums\\epaymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61938FF-4403-496B-AD9B-28EE4281F378}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|solutionrelative:src\\cashflow.communication\\enums\\epaymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61938FF-4403-496B-AD9B-28EE4281F378}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|c:\\dev\\cashflow\\src\\cashflow.communication\\requests\\requestexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F61938FF-4403-496B-AD9B-28EE4281F378}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|solutionrelative:src\\cashflow.communication\\requests\\requestexpensejson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76B20DF5-CF4F-414B-8639-4C8EE9BE82AD}|CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|c:\\dev\\cashflow\\cashflow.infrastructure\\cashflow.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{76B20DF5-CF4F-414B-8639-4C8EE9BE82AD}|CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:cashflow.infrastructure\\cashflow.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{927DAEE7-42D4-4F30-933E-B7BA3750C3B5}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\dev\\cashflow\\src\\cashflow.application\\cashflow.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{927DAEE7-42D4-4F30-933E-B7BA3750C3B5}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\cashflow.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BDF2119-2724-464D-B4DF-EA71A578FB17}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\dev\\cashflow\\src\\cashflow.api\\cashflow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2BDF2119-2724-464D-B4DF-EA71A578FB17}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\cashflow.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 483,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EPaymentType.cs",
+              "DocumentMoniker": "C:\\Dev\\CashFlow\\src\\CashFlow.Communication\\Enums\\EPaymentType.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Communication\\Enums\\EPaymentType.cs",
+              "ToolTip": "C:\\Dev\\CashFlow\\src\\CashFlow.Communication\\Enums\\EPaymentType.cs",
+              "RelativeToolTip": "src\\CashFlow.Communication\\Enums\\EPaymentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T22:36:34.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RequestExpenseJson.cs",
+              "DocumentMoniker": "C:\\Dev\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestExpenseJson.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Communication\\Requests\\RequestExpenseJson.cs",
+              "ToolTip": "C:\\Dev\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestExpenseJson.cs",
+              "RelativeToolTip": "src\\CashFlow.Communication\\Requests\\RequestExpenseJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T22:33:30.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "C:\\Dev\\CashFlow\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "ToolTip": "C:\\Dev\\CashFlow\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T22:31:35.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CashFlow.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Dev\\CashFlow\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+              "ToolTip": "C:\\Dev\\CashFlow\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+              "RelativeToolTip": "CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T22:25:24.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CashFlow.Application.csproj",
+              "DocumentMoniker": "C:\\Dev\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\CashFlow.Application.csproj",
+              "ToolTip": "C:\\Dev\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj",
+              "RelativeToolTip": "src\\CashFlow.Application\\CashFlow.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T22:25:00.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CashFlow.Api.csproj",
+              "DocumentMoniker": "C:\\Dev\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
+              "RelativeDocumentMoniker": "src\\CashFlow.Api\\CashFlow.Api.csproj",
+              "ToolTip": "C:\\Dev\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
+              "RelativeToolTip": "src\\CashFlow.Api\\CashFlow.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T22:24:40.341Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
