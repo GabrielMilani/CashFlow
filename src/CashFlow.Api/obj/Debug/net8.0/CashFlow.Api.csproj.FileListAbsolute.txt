@@ -44,3 +44,6 @@ C:\Dev\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\refint\CashFlow.Api.dll
 C:\Dev\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.pdb
 C:\Dev\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.genruntimeconfig.cache
 C:\Dev\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\ref\CashFlow.Api.dll
+D:\Dev\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.dll
+D:\Dev\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\refint\CashFlow.Api.dll
+D:\Dev\CashFlow\src\CashFlow.Api\obj\Debug\net8.0\CashFlow.Api.pdb
