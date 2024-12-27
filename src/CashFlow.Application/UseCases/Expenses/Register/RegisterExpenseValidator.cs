@@ -1,5 +1,6 @@
 ﻿using CashFlow.Communication.Requests;
 using FluentValidation;
+using System.Runtime.Versioning;
 
 namespace CashFlow.Application.UseCases.Expenses.Register
 {

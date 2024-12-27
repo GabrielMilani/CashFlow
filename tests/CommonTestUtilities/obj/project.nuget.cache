@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OGTB86nMnp0=",
+  "success": true,
+  "projectFilePath": "D:\\Dev\\CashFlow\\tests\\CommonTestUtilities\\CommonTestUtilities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MAQ\\.nuget\\packages\\bogus\\35.6.1\\bogus.35.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
