@@ -1,15 +1,26 @@
 ﻿using CashFlow.Domain.Entities;
 using CashFlow.Domain.Repositories.Expenses;
+using Microsoft.EntityFrameworkCore;
 
 namespace CashFlow.Infrastructure.DataAccess.Repositories
 {
     internal class ExpensesRepository : IExpensesRepository
     {
-        public void Add(Expense expense)
+        private readonly CashFlowDbContext _context;
+
+        public ExpensesRepository(CashFlowDbContext context) 
         {
-            var dbContext = new CashFlowDbContext();
-            dbContext.Expenses.Add(expense);
-            dbContext.SaveChanges();
+            _context = context;
+        }
+
+        public async Task Add(Expense expense)
+        {
+            await _context.Expenses.AddAsync(expense);
+        }
+
+        public async Task<List<Expense>> GetAll()
+        {
+            return await _context.Expenses.AsNoTracking().ToListAsync();
         }
     }
 }
