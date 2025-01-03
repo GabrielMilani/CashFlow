@@ -16,3 +16,6 @@ D:\Dev\CashFlow\src\CashFlow.Infrastructure\bin\Debug\net8.0\CashFlow.Domain.pdb
 D:\Dev\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.csproj.AssemblyReference.cache
 D:\Dev\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.84FCB40E.Up2Date
 D:\Dev\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.genruntimeconfig.cache
+D:\Dev\CashFlow\src\CashFlow.Infrastructure\bin\Debug\net8.0\fr\CashFlow.Domain.resources.dll
+D:\Dev\CashFlow\src\CashFlow.Infrastructure\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
+D:\Dev\CashFlow\src\CashFlow.Infrastructure\bin\Debug\net8.0\pt-PT\CashFlow.Domain.resources.dll

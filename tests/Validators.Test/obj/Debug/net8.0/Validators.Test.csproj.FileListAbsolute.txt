@@ -131,3 +131,14 @@ D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.Extensions.Depe
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\ClosedXML.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\ClosedXML.Parser.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\ExcelNumberFormat.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\RBush.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\SixLabors.Fonts.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\System.IO.Packaging.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\fr\CashFlow.Domain.resources.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\pt-PT\CashFlow.Domain.resources.dll

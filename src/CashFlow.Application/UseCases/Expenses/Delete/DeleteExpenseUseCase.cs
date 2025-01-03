@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CashFlow.Exception.ExceptionsBase;
+using CashFlow.Exception;
 
 namespace CashFlow.Application.UseCases.Expenses.Delete
 {
@@ -27,7 +28,7 @@ namespace CashFlow.Application.UseCases.Expenses.Delete
 
             if (result == false)
             {
-                throw new NotFountException("Expense not Found");
+                throw new NotFountException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
             }
 
             await _unitOfWork.Commit();
