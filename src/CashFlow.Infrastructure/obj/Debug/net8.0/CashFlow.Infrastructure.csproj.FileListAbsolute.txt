@@ -10,3 +10,9 @@ D:\Dev\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastruc
 D:\Dev\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\refint\CashFlow.Infrastructure.dll
 D:\Dev\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.pdb
 D:\Dev\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\ref\CashFlow.Infrastructure.dll
+D:\Dev\CashFlow\src\CashFlow.Infrastructure\bin\Debug\net8.0\CashFlow.Infrastructure.runtimeconfig.json
+D:\Dev\CashFlow\src\CashFlow.Infrastructure\bin\Debug\net8.0\CashFlow.Domain.dll
+D:\Dev\CashFlow\src\CashFlow.Infrastructure\bin\Debug\net8.0\CashFlow.Domain.pdb
+D:\Dev\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.csproj.AssemblyReference.cache
+D:\Dev\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.84FCB40E.Up2Date
+D:\Dev\CashFlow\src\CashFlow.Infrastructure\obj\Debug\net8.0\CashFlow.Infrastructure.genruntimeconfig.cache

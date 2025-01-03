@@ -126,3 +126,8 @@ D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\S
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\pt-PT\CashFlow.Exception.resources.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\AutoMapper.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
