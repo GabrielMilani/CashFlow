@@ -43,3 +43,8 @@ D:\Dev\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-PT\CashFlow.Excepti
 D:\Dev\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\fr\CashFlow.Domain.resources.dll
 D:\Dev\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
 D:\Dev\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\pt-PT\CashFlow.Domain.resources.dll
+D:\Dev\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\Logo\Logo.png
+D:\Dev\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\UseCases\Expenses\Reports\Pdf\Fonts\Raleway-Black.ttf
+D:\Dev\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\UseCases\Expenses\Reports\Pdf\Fonts\Raleway-Regular.ttf
+D:\Dev\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\UseCases\Expenses\Reports\Pdf\Fonts\WorkSans-Black.ttf
+D:\Dev\CashFlow\src\CashFlow.Application\bin\Debug\net8.0\UseCases\Expenses\Reports\Pdf\Fonts\WorkSans-Regular.ttf

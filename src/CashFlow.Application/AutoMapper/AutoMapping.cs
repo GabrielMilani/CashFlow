@@ -9,9 +9,19 @@ namespace CashFlow.Application.AutoMapper
     {
         public AutoMapping()
         {
-            CreateMap<RequestExpenseJson, Expense>().ReverseMap(); 
-            CreateMap<ResponseShortExpenseJson, Expense>().ReverseMap(); 
-            CreateMap<ResponseExpenseJson, Expense>().ReverseMap(); 
+            RequestToEntity();
+            ResponseToEntity();
+        }
+        public void RequestToEntity()
+        {
+            CreateMap<Expense, RequestExpenseJson>().ReverseMap();
+            CreateMap<User, RequestRegisterUserJson>().ReverseMap();
+        }
+        public void ResponseToEntity()
+        {
+            CreateMap<Expense, ResponseRegisteredExpenseJson>().ReverseMap();
+            CreateMap<Expense, ResponseShortExpenseJson>().ReverseMap();
+            CreateMap<Expense, ResponseExpenseJson>().ReverseMap();
         }
 
     }
