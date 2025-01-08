@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jwo7Ly3McQ4=",
+  "dgSpecHash": "9oQqr0Yy+/g=",
   "success": true,
   "projectFilePath": "D:\\Dev\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MAQ\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\MAQ\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\MAQ\\.nuget\\packages\\closedxml\\0.104.2\\closedxml.0.104.2.nupkg.sha512",
     "C:\\Users\\MAQ\\.nuget\\packages\\closedxml.parser\\1.2.0\\closedxml.parser.1.2.0.nupkg.sha512",
     "C:\\Users\\MAQ\\.nuget\\packages\\documentformat.openxml\\3.1.1\\documentformat.openxml.3.1.1.nupkg.sha512",
