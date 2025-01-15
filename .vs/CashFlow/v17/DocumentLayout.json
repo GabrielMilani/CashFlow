@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\Dev\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{695513FB-B482-4DDF-B2E4-B2BB1FFCAB9E}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\dev\\cashflow\\src\\cashflow.infrastructure\\dataaccess\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{695513FB-B482-4DDF-B2E4-B2BB1FFCAB9E}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\dataaccess\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{695513FB-B482-4DDF-B2E4-B2BB1FFCAB9E}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\dev\\cashflow\\src\\cashflow.infrastructure\\dataaccess\\cashflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{695513FB-B482-4DDF-B2E4-B2BB1FFCAB9E}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\dataaccess\\cashflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74D843EB-2C2E-4877-A012-6186B4EFBF98}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|d:\\dev\\cashflow\\src\\cashflow.domain\\repositories\\user\\iuserreadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74D843EB-2C2E-4877-A012-6186B4EFBF98}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\repositories\\user\\iuserreadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{695513FB-B482-4DDF-B2E4-B2BB1FFCAB9E}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\dev\\cashflow\\src\\cashflow.infrastructure\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{695513FB-B482-4DDF-B2E4-B2BB1FFCAB9E}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{695513FB-B482-4DDF-B2E4-B2BB1FFCAB9E}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\dev\\cashflow\\src\\cashflow.infrastructure\\security\\bcrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{695513FB-B482-4DDF-B2E4-B2BB1FFCAB9E}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\security\\bcrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{695513FB-B482-4DDF-B2E4-B2BB1FFCAB9E}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\dev\\cashflow\\src\\cashflow.infrastructure\\migrations\\databasemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{695513FB-B482-4DDF-B2E4-B2BB1FFCAB9E}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\migrations\\databasemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +18,37 @@
       "DocumentGroups": [
         {
           "DockedHeight": 483,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CashFlowDbContext.cs",
-              "DocumentMoniker": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
-              "ToolTip": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
-              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Title": "DataBaseMigration.cs",
+              "DocumentMoniker": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\DataBaseMigration.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\Migrations\\DataBaseMigration.cs",
+              "ToolTip": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\DataBaseMigration.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\Migrations\\DataBaseMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T11:28:45.533Z",
+              "WhenOpened": "2025-01-15T17:43:59.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\IUserRepository.cs",
-              "ToolTip": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABTAAAAAAAAAA==",
+              "Title": "CashFlowDbContext.cs",
+              "DocumentMoniker": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "ToolTip": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T11:27:04.458Z",
+              "WhenOpened": "2025-01-15T17:37:23.913Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserReadOnlyRepository.cs",
-              "DocumentMoniker": "D:\\Dev\\CashFlow\\src\\CashFlow.Domain\\Repositories\\User\\IUserReadOnlyRepository.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Repositories\\User\\IUserReadOnlyRepository.cs",
-              "ToolTip": "D:\\Dev\\CashFlow\\src\\CashFlow.Domain\\Repositories\\User\\IUserReadOnlyRepository.cs",
-              "RelativeToolTip": "src\\CashFlow.Domain\\Repositories\\User\\IUserReadOnlyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T11:25:54.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DependencyInjectionExtension.cs",
-              "DocumentMoniker": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\DependencyInjectionExtension.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DependencyInjectionExtension.cs",
-              "ToolTip": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\DependencyInjectionExtension.cs",
-              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DependencyInjectionExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T11:21:52.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BCrypt.cs",
-              "DocumentMoniker": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\Security\\BCrypt.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\Security\\BCrypt.cs",
-              "ToolTip": "D:\\Dev\\CashFlow\\src\\CashFlow.Infrastructure\\Security\\BCrypt.cs",
-              "RelativeToolTip": "src\\CashFlow.Infrastructure\\Security\\BCrypt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T11:17:39.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
