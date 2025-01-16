@@ -74,7 +74,7 @@
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.1, )"
             },
             "PDFsharp-MigraDoc": {
               "target": "Package",
