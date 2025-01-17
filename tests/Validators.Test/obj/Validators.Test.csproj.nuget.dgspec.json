@@ -324,8 +324,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\Dev\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj": {
+                "projectPath": "D:\\Dev\\CashFlow\\src\\CashFlow.Application\\CashFlow.Application.csproj"
+              },
               "D:\\Dev\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
                 "projectPath": "D:\\Dev\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
+              },
+              "D:\\Dev\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
+                "projectPath": "D:\\Dev\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
               }
             }
           }
@@ -346,9 +352,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Bogus": {
               "target": "Package",
               "version": "[35.6.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             }
           },
           "imports": [

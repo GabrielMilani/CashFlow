@@ -262,3 +262,4 @@ D:\Dev\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jw
 D:\Dev\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Dev\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 D:\Dev\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Dev\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\appsettings.Test.json

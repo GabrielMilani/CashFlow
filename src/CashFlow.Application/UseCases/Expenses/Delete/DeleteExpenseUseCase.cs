@@ -1,37 +1,38 @@
-﻿using AutoMapper;
+﻿using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Expenses;
-using CashFlow.Domain.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CashFlow.Exception.ExceptionsBase;
+using CashFlow.Domain.Services.LoggedUser;
 using CashFlow.Exception;
+using CashFlow.Exception.ExceptionsBase;
 
-namespace CashFlow.Application.UseCases.Expenses.Delete
+namespace CashFlow.Application.UseCases.Expenses.Delete;
+public class DeleteExpenseUseCase : IDeleteExpenseUseCase
 {
-    internal class DeleteExpenseUseCase : IDeleteExpenseUseCase
+    private readonly IExpensesReadOnlyRepository _expensesReadOnly;
+    private readonly IExpensesWriteOnlyRepository _repository;
+    private readonly IUnitOfWork _unitOfWork;
+    private readonly ILoggedUser _loggedUser;
+
+    public DeleteExpenseUseCase(
+        IExpensesWriteOnlyRepository repository,
+        IExpensesReadOnlyRepository expensesReadOnly,
+        IUnitOfWork unitOfWork,
+        ILoggedUser loggedUser)
     {
-        private readonly IExpensesWriteOnlyRepository _expensesRepository;
-        private readonly IUnitOfWork _unitOfWork;
+        _repository = repository;
+        _unitOfWork = unitOfWork;
+        _loggedUser = loggedUser;
+        _expensesReadOnly = expensesReadOnly;
+    }
 
-        public DeleteExpenseUseCase(IExpensesWriteOnlyRepository expensesRepository, IUnitOfWork unitOfWork)
+    public async Task Execute(long id)
+    {
+        var loggedUser = await _loggedUser.Get();
+        var expense = await _expensesReadOnly.GetById(loggedUser, id);
+        if (expense is null)
         {
-            _expensesRepository = expensesRepository;
-            _unitOfWork = unitOfWork;
+            throw new NotFountException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
         }
-
-        public async Task Execute(long id)
-        {
-            var result = await _expensesRepository.Delete(id);
-
-            if (result == false)
-            {
-                throw new NotFountException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
-            }
-
-            await _unitOfWork.Commit();
-        }
+        await _repository.Delete(id);
+        await _unitOfWork.Commit();
     }
 }

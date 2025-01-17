@@ -1,8 +1,5 @@
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\testhost.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\testhost.exe
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Validators.Test.deps.json
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Validators.Test.runtimeconfig.json
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Validators.Test.dll
@@ -16,7 +13,6 @@ D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.TestPlatform.Cr
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Newtonsoft.Json.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\NuGet.Frameworks.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\xunit.abstractions.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\xunit.assert.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\xunit.core.dll
@@ -112,17 +108,6 @@ D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Bogus.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\CommonTestUtilities.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\CommonTestUtilities.pdb
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\FluentAssertions.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\System.Drawing.Common.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\System.Windows.Extensions.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\pt-PT\CashFlow.Exception.resources.dll
@@ -163,3 +148,10 @@ D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\de\MigraDoc.Rendering.res
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\de\MigraDoc.RtfRendering.resources.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\de\PdfSharp.Charting.resources.dll
 D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\de\PdfSharp.resources.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\.msCoverageSourceRootsMapping_Validators.Test
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Castle.Core.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\Moq.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\Dev\CashFlow\tests\Validators.Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

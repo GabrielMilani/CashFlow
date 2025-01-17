@@ -1,7 +1,5 @@
-﻿namespace CashFlow.Domain.Repositories.User
+﻿namespace CashFlow.Domain.Repositories.User;
+public interface IUserWriteOnlyRepository
 {
-    public interface IUserWriteOnlyRepository
-    {
-        Task Add(Entities.User user);
-    }
+    Task Add(Entities.User user);
 }
