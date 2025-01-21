@@ -61,7 +61,7 @@ public class UpdateExpenseUseCaseTest
 
         var act = async () => await useCase.Execute(id: 1000, request);
 
-        var result = await act.Should().ThrowAsync<NotFountException>();
+        var result = await act.Should().ThrowAsync<NotFoundException>();
 
         result.Where(ex => ex.GetErrors().Count == 1 && ex.GetErrors().Contains(ResourceErrorMessages.EXPENSE_NOT_FOUND));
     }

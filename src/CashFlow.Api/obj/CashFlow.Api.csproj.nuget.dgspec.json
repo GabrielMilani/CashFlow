@@ -175,7 +175,7 @@
             },
             "PDFsharp-MigraDoc": {
               "target": "Package",
-              "version": "[6.1.1, )"
+              "version": "[6.1.0-preview-3, )"
             }
           },
           "imports": [

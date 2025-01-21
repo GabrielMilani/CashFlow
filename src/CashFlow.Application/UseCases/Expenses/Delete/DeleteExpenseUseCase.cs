@@ -30,7 +30,7 @@ public class DeleteExpenseUseCase : IDeleteExpenseUseCase
         var expense = await _expensesReadOnly.GetById(loggedUser, id);
         if (expense is null)
         {
-            throw new NotFountException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
+            throw new NotFoundException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
         }
         await _repository.Delete(id);
         await _unitOfWork.Commit();

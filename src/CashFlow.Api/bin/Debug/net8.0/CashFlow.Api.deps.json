@@ -543,6 +543,12 @@
           }
         }
       },
+      "Microsoft.Extensions.Configuration/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.1",
+          "Microsoft.Extensions.Primitives": "9.0.1"
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/9.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.1"
@@ -621,6 +627,28 @@
           }
         }
       },
+      "Microsoft.Extensions.Logging.Configuration/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.1",
+          "Microsoft.Extensions.Configuration.Binder": "9.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
+          "Microsoft.Extensions.Logging": "9.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.1",
+          "Microsoft.Extensions.Options": "9.0.1",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0"
+        }
+      },
+      "Microsoft.Extensions.Logging.Console/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
+          "Microsoft.Extensions.Logging": "9.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.1",
+          "Microsoft.Extensions.Logging.Configuration": "6.0.0",
+          "Microsoft.Extensions.Options": "9.0.1",
+          "System.Text.Json": "9.0.1"
+        }
+      },
       "Microsoft.Extensions.Options/9.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
@@ -631,6 +659,15 @@
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.124.61010"
           }
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.1",
+          "Microsoft.Extensions.Configuration.Binder": "9.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
+          "Microsoft.Extensions.Options": "9.0.1",
+          "Microsoft.Extensions.Primitives": "9.0.1"
         }
       },
       "Microsoft.Extensions.Primitives/9.0.1": {
@@ -725,46 +762,47 @@
           }
         }
       },
-      "PDFsharp-MigraDoc/6.1.1": {
+      "PDFsharp-MigraDoc/6.1.0-preview-3": {
         "dependencies": {
-          "Microsoft.Extensions.Logging": "9.0.1"
+          "Microsoft.Extensions.Logging": "9.0.1",
+          "Microsoft.Extensions.Logging.Console": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/MigraDoc.DocumentObjectModel.dll": {
-            "assemblyVersion": "6.1.1.0",
-            "fileVersion": "6.1.1.7121"
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           },
           "lib/net6.0/MigraDoc.Rendering.dll": {
-            "assemblyVersion": "6.1.1.0",
-            "fileVersion": "6.1.1.7121"
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           },
           "lib/net6.0/MigraDoc.RtfRendering.dll": {
-            "assemblyVersion": "6.1.1.0",
-            "fileVersion": "6.1.1.7121"
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           },
           "lib/net6.0/PdfSharp.Charting.dll": {
-            "assemblyVersion": "6.1.1.0",
-            "fileVersion": "6.1.1.7121"
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           },
           "lib/net6.0/PdfSharp.Quality.dll": {
-            "assemblyVersion": "6.1.1.0",
-            "fileVersion": "6.1.1.7121"
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           },
           "lib/net6.0/PdfSharp.Snippets.dll": {
-            "assemblyVersion": "6.1.1.0",
-            "fileVersion": "6.1.1.7121"
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           },
           "lib/net6.0/PdfSharp.System.dll": {
-            "assemblyVersion": "6.1.1.0",
-            "fileVersion": "6.1.1.7121"
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           },
           "lib/net6.0/PdfSharp.WPFonts.dll": {
-            "assemblyVersion": "6.1.1.0",
-            "fileVersion": "6.1.1.7121"
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           },
           "lib/net6.0/PdfSharp.dll": {
-            "assemblyVersion": "6.1.1.0",
-            "fileVersion": "6.1.1.7121"
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           }
         },
         "resources": {
@@ -1132,7 +1170,7 @@
           "ClosedXML": "0.104.2",
           "FluentValidation": "11.11.0",
           "Microsoft.Extensions.DependencyInjection": "9.0.1",
-          "PDFsharp-MigraDoc": "6.1.1"
+          "PDFsharp-MigraDoc": "6.1.0-preview-3"
         },
         "runtime": {
           "CashFlow.Application.dll": {
@@ -1422,6 +1460,13 @@
       "path": "microsoft.extensions.caching.memory/9.0.1",
       "hashPath": "microsoft.extensions.caching.memory.9.0.1.nupkg.sha512"
     },
+    "Microsoft.Extensions.Configuration/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tq2wXyh3fL17EMF2bXgRhU7JrbO3on93MRKYxzz4JzzvuGSA1l0W3GI9/tl8EO89TH+KWEymP7bcFway6z9fXg==",
+      "path": "microsoft.extensions.configuration/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.6.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.Configuration.Abstractions/9.0.1": {
       "type": "package",
       "serviceable": true,
@@ -1471,12 +1516,33 @@
       "path": "microsoft.extensions.logging.abstractions/9.0.1",
       "hashPath": "microsoft.extensions.logging.abstractions.9.0.1.nupkg.sha512"
     },
+    "Microsoft.Extensions.Logging.Configuration/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZDskjagmBAbv+K8rYW9VhjPplhbOE63xUD0DiuydZJwt15dRyoqicYklLd86zzeintUc7AptDkHn+YhhYkYo8A==",
+      "path": "microsoft.extensions.logging.configuration/6.0.0",
+      "hashPath": "microsoft.extensions.logging.configuration.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Console/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gsqKzOEdsvq28QiXFxagmn1oRB9GeI5GgYCkoybZtQA0IUb7QPwf1WmN3AwJeNIsadTvIFQCiVK0OVIgKfOBGg==",
+      "path": "microsoft.extensions.logging.console/6.0.0",
+      "hashPath": "microsoft.extensions.logging.console.6.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.Options/9.0.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-nggoNKnWcsBIAaOWHA+53XZWrslC7aGeok+aR+epDPRy7HI7GwMnGZE8yEsL2Onw7kMOHVHwKcsDls1INkNUJQ==",
       "path": "microsoft.extensions.options/9.0.1",
       "hashPath": "microsoft.extensions.options.9.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bXWINbTn0vC0FYc9GaQTISbxhQLAMrvtbuvD9N6JelEaIS/Pr62wUCinrq5bf1WRBGczt1v4wDhxFtVFNcMdUQ==",
+      "path": "microsoft.extensions.options.configurationextensions/6.0.0",
+      "hashPath": "microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/9.0.1": {
       "type": "package",
@@ -1541,12 +1607,12 @@
       "path": "mono.texttemplating/3.0.0",
       "hashPath": "mono.texttemplating.3.0.0.nupkg.sha512"
     },
-    "PDFsharp-MigraDoc/6.1.1": {
+    "PDFsharp-MigraDoc/6.1.0-preview-3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-x0TpoIBth4OLZ41NjrY1rEKZgqFBdMEJ7OLFjdNxd6dv8bhBxuIdolF+ywkY9qS1R9fhAT42zbRU+9yKniN9Gg==",
-      "path": "pdfsharp-migradoc/6.1.1",
-      "hashPath": "pdfsharp-migradoc.6.1.1.nupkg.sha512"
+      "sha512": "sha512-OBrKl3TkabOxqEOb3ZPou640UGPIp+MV/v6alkJkX+Z27kBBH6/NHFrjz1bDoFA1DTqrog/ctC2F4uTVuBj6Gg==",
+      "path": "pdfsharp-migradoc/6.1.0-preview-3",
+      "hashPath": "pdfsharp-migradoc.6.1.0-preview-3.nupkg.sha512"
     },
     "RBush/4.0.0": {
       "type": "package",

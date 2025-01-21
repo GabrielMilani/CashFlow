@@ -4,11 +4,6 @@ using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Domain.Services.LoggedUser;
 using CashFlow.Exception;
 using CashFlow.Exception.ExceptionsBase;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CashFlow.Application.UseCases.Expenses.GetById
 {
@@ -33,7 +28,7 @@ namespace CashFlow.Application.UseCases.Expenses.GetById
             var result = await _expensesRepository.GetById(loggedUser, id);
 
             if (result is null)
-                throw new NotFountException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
+                throw new NotFoundException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
 
             return _mapper.Map<ResponseExpenseJson>(result);
         }

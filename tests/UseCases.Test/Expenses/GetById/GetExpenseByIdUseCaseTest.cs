@@ -30,7 +30,6 @@ public class GetExpenseByIdUseCaseTest
         result.PaymentType.Should().Be((CashFlow.Communication.Enums.EPaymentType)expense.PaymentType);
         result.Tags.Should().NotBeNullOrEmpty().And.BeEquivalentTo(expense.Tags.Select(tag => tag.Value));
     }
-
     [Fact]
     public async Task Error_Expense_Not_Found()
     {
@@ -40,7 +39,7 @@ public class GetExpenseByIdUseCaseTest
 
         var act = async () => await useCase.Execute(id: 1000);
 
-        var result = await act.Should().ThrowAsync<NotFountException>();
+        var result = await act.Should().ThrowAsync<NotFoundException>();
 
         result.Where(ex => ex.GetErrors().Count == 1 && ex.GetErrors().Contains(ResourceErrorMessages.EXPENSE_NOT_FOUND));
     }

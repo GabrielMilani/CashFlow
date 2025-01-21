@@ -31,7 +31,7 @@ namespace CashFlow.Application.UseCases.Expenses.Update
             var loggedUser = await _loggedUser.Get();
             var expense = await _expenseRepository.GetById(loggedUser, id);
             if (expense is null)
-                throw new NotFountException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
+                throw new NotFoundException(ResourceErrorMessages.EXPENSE_NOT_FOUND);
             _mapper.Map(request, expense);
             _expenseRepository.Update(expense);
             await _unitOfWork.Commit();

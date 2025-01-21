@@ -10,19 +10,29 @@ namespace CashFlow.Application.AutoMapper
         public AutoMapping()
         {
             RequestToEntity();
-            ResponseToEntity();
+            EntityToResponse();
         }
-        public void RequestToEntity()
+
+        private void RequestToEntity()
         {
-            CreateMap<Expense, RequestExpenseJson>().ReverseMap();
-            CreateMap<User, RequestRegisterUserJson>().ReverseMap()
-                                                      .ForMember(dest => dest.Password, config => config.Ignore());
+            CreateMap<RequestRegisterUserJson, User>()
+                .ForMember(dest => dest.Password, config => config.Ignore());
+
+            CreateMap<RequestExpenseJson, Expense>()
+                .ForMember(dest => dest.Tags, config => config.MapFrom(source => source.Tags.Distinct()));
+
+            CreateMap<Communication.Enums.Tag, Tag>()
+                .ForMember(dest => dest.Value, config => config.MapFrom(source => source));
         }
-        public void ResponseToEntity()
+
+        private void EntityToResponse()
         {
-            CreateMap<Expense, ResponseRegisteredExpenseJson>().ReverseMap();
-            CreateMap<Expense, ResponseShortExpenseJson>().ReverseMap();
-            CreateMap<Expense, ResponseExpenseJson>().ReverseMap();
+            CreateMap<Expense, ResponseExpenseJson>()
+                .ForMember(dest => dest.Tags, config => config.MapFrom(source => source.Tags.Select(tag => tag.Value)));
+
+            CreateMap<Expense, ResponseRegisteredExpenseJson>();
+            CreateMap<Expense, ResponseShortExpenseJson>();
+            CreateMap<User, ResponseUserProfileJson>();
         }
 
     }

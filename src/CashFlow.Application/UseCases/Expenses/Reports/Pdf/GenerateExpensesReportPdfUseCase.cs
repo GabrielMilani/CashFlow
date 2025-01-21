@@ -195,8 +195,9 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Pdf
         {
             var renderer = new PdfDocumentRenderer
             {
-                Document = document,
+                Document = document
             };
+
             renderer.RenderDocument();
             using var file = new MemoryStream();
             renderer.PdfDocument.Save(file);
