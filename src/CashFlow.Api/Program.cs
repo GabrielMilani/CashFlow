@@ -9,6 +9,7 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 using CashFlow.Domain.Security.Tokens;
 using CashFlow.Api.Token;
+using CashFlow.Api.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -72,6 +73,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<CultureMiddleware>();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

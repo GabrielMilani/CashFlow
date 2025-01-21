@@ -56,7 +56,7 @@ public class GetExpenseByIdTest : CashFlowClassFixture
 
         var errors = response.RootElement.GetProperty("errorMessages").EnumerateArray();
 
-        var expectedMessage = ResourceErrorMessages.ResourceManager.GetString("EXPENSE_NOT_FOUND", new CultureInfo(culture));
+        var expectedMessage = ResourceErrorMessages.ResourceManager.GetString(ResourceErrorMessages.EXPENSE_NOT_FOUND , new CultureInfo(culture));
 
         errors.Should().HaveCount(1).And.Contain(error => error.GetString()!.Equals(expectedMessage));
     }

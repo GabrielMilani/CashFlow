@@ -2,30 +2,41 @@
 using CashFlow.Domain.Repositories.User;
 using Microsoft.EntityFrameworkCore;
 
-namespace CashFlow.Infrastructure.DataAccess.Repositories
+namespace CashFlow.Infrastructure.DataAccess.Repositories;
+internal class UserRepository : IUserReadOnlyRepository, IUserWriteOnlyRepository, IUserUpdateOnlyRepository
 {
-    internal class UserRepository : IUserReadOnlyRepository, IUserWriteOnlyRepository
+    private readonly CashFlowDbContext _dbContext;
+
+    public UserRepository(CashFlowDbContext dbContext) => _dbContext = dbContext;
+
+    public async Task Add(User user)
     {
-        private readonly CashFlowDbContext _context;
+        await _dbContext.Users.AddAsync(user);
+    }
 
-        public UserRepository(CashFlowDbContext context)
-        {
-            _context = context;
-        }
+    public async Task Delete(User user)
+    {
+        var userToRemove = await _dbContext.Users.FindAsync(user.Id);
+        _dbContext.Users.Remove(userToRemove!);
+    }
 
-        public async Task Add(User user)
-        {
-            await _context.Users.AddAsync(user);
-        }
+    public async Task<bool> ExistActiveUserWithEmail(string email)
+    {
+        return await _dbContext.Users.AnyAsync(user => user.Email.Equals(email));
+    }
 
-        public async Task<bool> ExistActiveUserWithEmail(string email)
-        {
-            return await _context.Users.AnyAsync(user => user.Email.Equals(email));
-        }
+    public async Task<User> GetById(long id)
+    {
+        return await _dbContext.Users.FirstAsync(user => user.Id == id);
+    }
 
-        public async Task<User?> GetUserByEmail(string email)
-        {
-            return await _context.Users.AsNoTracking().FirstOrDefaultAsync(user => user.Email.Equals(email));
-        }
+    public async Task<User?> GetUserByEmail(string email)
+    {
+        return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(user => user.Email.Equals(email));
+    }
+
+    public void Update(User user)
+    {
+        _dbContext.Users.Update(user);
     }
 }

@@ -18,7 +18,7 @@
           }
         }
       },
-      "Bogus/35.6.1": {
+      "Bogus/35.5.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Bogus.dll": {
@@ -361,16 +361,20 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Moq/4.20.72": {
+      "Moq/4.20.70": {
         "type": "package",
         "dependencies": {
           "Castle.Core": "5.1.1"
         },
         "compile": {
-          "lib/net6.0/Moq.dll": {}
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Moq.dll": {}
+          "lib/net6.0/Moq.dll": {
+            "related": ".xml"
+          }
         }
       },
       "PDFsharp-MigraDoc/6.1.0-preview-3": {
@@ -671,14 +675,14 @@
         "lib/net6.0/AutoMapper.xml"
       ]
     },
-    "Bogus/35.6.1": {
-      "sha512": "QPJ8zLL0ScEunEoUNhMDigD4ykA/n7vXCZUQdGCFGHBfP2mNYjiCzR9Cj12eaFaDlwkhIC1HKQZihWl8OgbLsw==",
+    "Bogus/35.5.1": {
+      "sha512": "GBp2peww04szEJ0GlBlzCYilFDaSkL7Ja4m37YeTRjC/mgoiZnUuifmgUxVD/oLU2MC1uoXfQYK91doGp7Zkpg==",
       "type": "package",
-      "path": "bogus/35.6.1",
+      "path": "bogus/35.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "bogus.35.6.1.nupkg.sha512",
+        "bogus.35.5.1.nupkg.sha512",
         "bogus.nuspec",
         "lib/net40/Bogus.dll",
         "lib/net40/Bogus.xml",
@@ -1138,19 +1142,23 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Moq/4.20.72": {
-      "sha512": "EA55cjyNn8eTNWrgrdZJH5QLFp2L43oxl1tlkoYUKIE9pRwL784OWiTXeCV5ApS+AMYEAlt7Fo03A2XfouvHmQ==",
+    "Moq/4.20.70": {
+      "sha512": "4rNnAwdpXJBuxqrOCzCyICXHSImOTRktCgCWXWykuF1qwoIsVvEnR7PjbMk/eLOxWvhmj5Kwt+kDV3RGUYcNwg==",
       "type": "package",
-      "path": "moq/4.20.72",
+      "path": "moq/4.20.70",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/net462/Moq.dll",
+        "lib/net462/Moq.xml",
         "lib/net6.0/Moq.dll",
+        "lib/net6.0/Moq.xml",
         "lib/netstandard2.0/Moq.dll",
+        "lib/netstandard2.0/Moq.xml",
         "lib/netstandard2.1/Moq.dll",
-        "moq.4.20.72.nupkg.sha512",
+        "lib/netstandard2.1/Moq.xml",
+        "moq.4.20.70.nupkg.sha512",
         "moq.nuspec",
         "readme.md"
       ]
@@ -1481,11 +1489,10 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 13.0.1",
-      "Bogus >= 35.6.1",
+      "Bogus >= 35.5.1",
       "CashFlow.Application >= 1.0.0",
       "CashFlow.Communication >= 1.0.0",
-      "CashFlow.Domain >= 1.0.0",
-      "Moq >= 4.20.72"
+      "Moq >= 4.20.70"
     ]
   },
   "packageFolders": {
@@ -1525,9 +1532,6 @@
             },
             "D:\\Dev\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj": {
               "projectPath": "D:\\Dev\\CashFlow\\src\\CashFlow.Communication\\CashFlow.Communication.csproj"
-            },
-            "D:\\Dev\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj": {
-              "projectPath": "D:\\Dev\\CashFlow\\src\\CashFlow.Domain\\CashFlow.Domain.csproj"
             }
           }
         }
@@ -1554,11 +1558,11 @@
           },
           "Bogus": {
             "target": "Package",
-            "version": "[35.6.1, )"
+            "version": "[35.5.1, )"
           },
           "Moq": {
             "target": "Package",
-            "version": "[4.20.72, )"
+            "version": "[4.20.70, )"
           }
         },
         "imports": [

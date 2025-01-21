@@ -30,6 +30,7 @@ public class GetExpenseByIdUseCaseTest
         result.PaymentType.Should().Be((CashFlow.Communication.Enums.EPaymentType)expense.PaymentType);
         result.Tags.Should().NotBeNullOrEmpty().And.BeEquivalentTo(expense.Tags.Select(tag => tag.Value));
     }
+
     [Fact]
     public async Task Error_Expense_Not_Found()
     {
