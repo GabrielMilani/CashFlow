@@ -33,13 +33,15 @@ namespace CashFlow.Infrastructure.DataAccess.Repositories
 
         async Task<Expense?> IExpensesReadOnlyRepository.GetById(User user, long id)
         {
-            return await _context.Expenses.AsNoTracking()
+            return await _context.Expenses.GetFullExpense()
+                                          .AsNoTracking()
                                           .FirstOrDefaultAsync(e => e.Id == id && e.UserId == user.Id);
         }
 
         async Task<Expense?> IExpensesUpdateOnlyRepository.GetById(User user, long id)
         {
-            return await _context.Expenses.FirstOrDefaultAsync(e => e.Id == id && e.UserId == user.Id);
+            return await _context.Expenses.GetFullExpense()
+                                          .FirstOrDefaultAsync(e => e.Id == id && e.UserId == user.Id);
         }
 
         public void Update(Expense expense)
@@ -58,6 +60,10 @@ namespace CashFlow.Infrastructure.DataAccess.Repositories
                                           .OrderBy(e => e.Date)
                                           .ThenBy(e => e.Title)
                                           .ToListAsync();
+        }
+
+        private IIncludableQueryable< Expense, ICollection<Tags>> GetFullExpense(){
+            return _context.Expenses.Include(e => e.Tags)
         }
     }
 }
